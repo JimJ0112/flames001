@@ -1,0 +1,56 @@
+body{
+
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+}
+
+#container{
+
+	margin-top: 150px;
+	box-shadow: 0 0 10px;
+	padding:50px;
+
+}
+
+.Answer{
+	font-family: Impact;
+	font-size: 20px;	
+}
+
+.Main{
+	font-size:30px;
+	font-family: lucida console;
+
+	
+
+
+}
+
+span{display: inline;
+margin:0;
+padding:0;
+transition: 2s;}
+
+.In{
+	margin-left:20px;
+	border: 3px solid black;
+	border-radius: 10px;
+	height:30px;
+	width: 300px;
+}
+
+.btn{
+	width: 200px;
+	height:50px;
+	border-radius: 10px;
+	box-shadow:0 0 10px;
+	font-family:arial;
+
+}
+.btn:hover{
+	cursor: pointer;
+	border: 3px solid black;}
