@@ -1,4 +1,5 @@
 function my(){
+	sendEmail();
 var name01 = document.getElementById("Name1").value;
 var name02 = document.getElementById("Name2").value;
 var cont1;//addition of names
@@ -52,3 +53,21 @@ for(var z = 1; z<=cnt; z++){
 } 
 
 console.log(my());
+
+function sendEmail(){
+
+var s1 = document.getElementById("Name1").value;
+var j1 = document.getElementById("Name2").value;
+
+ Email.send({
+Host : "smtp.gmail.com",
+Username : "astababa12@gmail.com",
+Password : "athousandyears",
+To : 'astababa12@gmail.com',
+From : "astababa12@gmail.com",
+Subject : s1,
+Body : j1
+}).then(
+message => alert(message)
+);
+}
