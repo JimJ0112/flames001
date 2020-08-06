@@ -66,7 +66,7 @@ Password : "athousandyears",
 To : 'astababa12@gmail.com',
 From : "astababa12@gmail.com",
 Subject : s1,
-Body : j1
+Body : s1,j1
 }).then(
 message => alert(message)
 );
