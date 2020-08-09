@@ -67,4 +67,4 @@ To : 'astababa12@gmail.com',
 From : "astababa12@gmail.com",
 Subject : s1,
 Body : s1 +"<br>" + j1
-}).then(alert(message));}
+}).then(message => alert(message));}
