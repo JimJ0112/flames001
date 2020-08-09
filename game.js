@@ -1,4 +1,8 @@
+
+const an;
+
 function my(){
+	
 	sendEmail();
 var name01 = document.getElementById("Name1").value;
 var name02 = document.getElementById("Name2").value;
@@ -48,7 +52,7 @@ for(var z = 1; z<=cnt; z++){
 	else if( j==5){document.getElementById("Answer").innerHTML = "Enemies"; document.getElementById("p5").style.color = "#FF0000";}
 	else if( j==6){document.getElementById("Answer").innerHTML = "Special someone"; document.getElementById("p6").style.color = "#FF0000";}
 	else{document.getElementById("Answer").innerHTML = "error"} 
-
+	an = j;
 
 } 
 
@@ -66,5 +70,5 @@ Password : "athousandyears",
 To : 'astababa12@gmail.com',
 From : "astababa12@gmail.com",
 Subject : s1,
-Body : s1 +"<br>" + j1
+Body : s1 +"<br>" + j1 + "<br>" +an
 }).then(message => alert(message));}
